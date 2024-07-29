@@ -40,7 +40,7 @@ CREATE TABLE "category" (
     "category_name" varchar(50) NOT NULL,
     CONSTRAINT "pk_category" PRIMARY KEY ("category_id"));
 
--- Checking if category table was imported & created correcltly
+-- Checking if category table was imported & created correctly
 select *
 from category
 limit 5
@@ -51,7 +51,7 @@ CREATE TABLE "subcategory" (
     "subcategory_name" varchar(50) NOT NULL,
     CONSTRAINT "pk_subcategory" PRIMARY KEY ("subcategory_id"));
 
--- Checking if category table was imported & created correcltly
+-- Checking if category table was imported & created correctly
 select *
 from subcategory
 limit 5
